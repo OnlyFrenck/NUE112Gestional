@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - SORES Gestional</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <div class="map">Clicca <a href="map.html">qui</a> per visualizzare la mappa.</div>
+    <div class="call-code">Codice chiamata corrente: <input type="text" name="call-code" id="cc" placeholder="SR-"></div>
+    <div class="box-content">
+        <div class="op-info">
+            <h5 class="op-info-title">Informazioni dell'operatore</h5>
+            <input type="text" name="name" id="name" placeholder="Nome di riconoscimento. ES: LucaM">
+            <input type="text" name="number" id="number" placeholder="Numero operatore. ES: 00-326">
+        </div>
+        <div class="caller-info">
+            <h5 class="caller-info-title">Informazioni personali sul chiamante</h5>
+            <input type="text" name="name-of-caller" id="noc" placeholder="Nome e cognome del chiamante">
+            <input type="text" name="number-of-caller" id="noc" placeholder="Contatto dell'utente">
+        </div>
+        <div class="location">
+            <h5 class="location-title">Posizione rilevata del chiamante</h5>
+            <input type="text" name="location" id="location" placeholder="Inserisci l'indirizzo della localizzazione">
+            <input type="text" name="location" id="location" placeholder="Inserisci la città e la provincia della localizzazione">
+        </div>
+        <div class="send-call">
+            <h5 class="send-call-title">Inoltra la chiamata e la scheda corrente a:</h5>
+            <table border="1">
+                <tr>
+                    <th>Inoltra richiesta</th>
+                    <th>Servizio</th>
+                    <th>Stazione più vicina</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Emergenza Sanitaria</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Vigili del Fuoco</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Polizia</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Carabinieri</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Guardia di Finanza</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Corpo Forestale</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Esercito italiano</td>
+                    <td>Italia, Generic</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="select"></td>
+                    <td>Guardia Costiera / Capitaneria di Porto</td>
+                    <td>Italia, Generic</td>
+                </tr>
+            </table>
+            <button><a href="sending.html">Inoltra la richiesta</a></button>
+        </div>
+    </div>
+</body>
+</html>
